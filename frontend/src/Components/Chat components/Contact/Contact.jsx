@@ -20,6 +20,7 @@ function Contact() {
             <input type="search" placeholder='Search '/>
             <i className='fs-4'><RiSearch2Line /></i>
         </div>
+        
     </Col>
     </>
   )
