@@ -1,7 +1,12 @@
-// import "./App.css";
+import React from 'react'
+import Signin from './Pages/Signin/Signin'
 
 function App() {
-  return <div className="App">ddd</div>;
+  return (
+    <>
+    <Signin />
+    </>
+  )
 }
 
-export default App;
+export default App
