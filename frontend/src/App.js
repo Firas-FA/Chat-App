@@ -1,12 +1,12 @@
-import React from 'react'
-import Signin from './Pages/Signin/Signin'
+import React from "react";
+ import Signin from "./Pages/Signin/Signin.jsx";
 
 function App() {
   return (
     <>
-    <Signin />
+      <Signin />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
