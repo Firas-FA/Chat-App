@@ -10,7 +10,7 @@ function App() {
     {/* <Signin /> */}
     <Chat />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
