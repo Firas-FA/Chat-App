@@ -1,8 +1,14 @@
 import React from 'react'
-
+import {Row ,Col} from 'react-bootstrap'
+import Contact from '../../Components/Chat components/Contact/Contact'
 function Chat() {
   return (
-    <div>Chat</div>
+    <>
+    <Row className='mx-0'>
+        <Contact />
+
+    </Row>
+    </>
   )
 }
 
