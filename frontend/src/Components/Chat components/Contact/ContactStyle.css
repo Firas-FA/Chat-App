@@ -1,0 +1,13 @@
+.search{
+    border: 1px solid #8E8E93;
+    border-radius: 20px;
+    padding: 2px 15px 5px;
+
+}
+.search input{
+    border: none;
+    width: 90%;
+}
+.search input::placeholder{
+    color: #8E8E93;
+}
