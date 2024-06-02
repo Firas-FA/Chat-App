@@ -44,7 +44,7 @@
 }
 
 .input:focus,
-input:hover {
+.input:hover {
   outline: none;
   border-color: rgba(69, 194, 177, 1);
   background-color: #fff;
