@@ -11,3 +11,10 @@
 .search input::placeholder{
     color: #8E8E93;
 }
+.search input:focus{
+    outline: none;
+}
+.contacts{
+    overflow-y: scroll;
+    height: 72vh;
+}
