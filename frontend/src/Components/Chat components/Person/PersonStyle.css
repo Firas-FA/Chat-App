@@ -23,9 +23,9 @@
     bottom: 10%;
     border: 2px solid #fff;
 }
-/* .person:focus{
+.person:focus{
     background-color: #FD4A5C;
-} */
+}
 .person{
     /* background-color: red; */
 }
