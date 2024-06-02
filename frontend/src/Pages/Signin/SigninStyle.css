@@ -1,0 +1,117 @@
+.lift-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.title {
+  color: 171717;
+  font-weight: bold;
+}
+.sup-title {
+  color: #8e8e93;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.group {
+  display: flex;
+  line-height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  width: auto;
+  height: 45px;
+  line-height: 30px;
+  padding: 0 5rem;
+  padding-left: 3rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  border-color: #e5e5ea;
+  background-color: #ffffff;
+  color: #0d0c22;
+  transition: 0.5s ease;
+}
+
+.input::placeholder {
+  color: #94a3b8;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: rgba(69, 194, 177, 1);
+  background-color: #fff;
+  box-shadow: 0 0 0 5px rgb(69 194 177/ 30%);
+}
+
+.icon {
+  position: relative;
+  left: 2rem;
+  fill: none;
+  width: 1rem;
+  height: 1rem;
+}
+
+.SingInBtn {
+  height: 60px;
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: #3cc2b1;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.SingInBtn:hover {
+  background-color: #2c7d72;
+}
+
+/** */
+
+#start1 {
+  position: absolute;
+  top: 3%;
+  right: 15%;
+  width: 4%;
+}
+#start2 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 3%;
+}
+#start3 {
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  width: 2%;
+}
+#start4 {
+  position: absolute;
+  bottom: 9%;
+  right: 4%;
+  width: 2%;
+}
+
+/** */
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#imageSingin {
+  width: 75%;
+}

@@ -1,0 +1,31 @@
+.msgTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%; 
+}
+.newMsg{
+    width: 15px;
+    height: 12px;
+    background-color: #FD4A5C;
+    border-radius: 50%;
+}
+.per-img{
+    position: relative;
+}
+.online{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 76%;
+    bottom: 10%;
+    border: 2px solid #fff;
+}
+.person:focus{
+    background-color: #FD4A5C;
+}
+.person{
+    /* background-color: red; */
+}
