@@ -18,3 +18,18 @@
     overflow-y: scroll;
     height: 72vh;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #171623; */
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(69, 194, 177, 1);
+  border-radius: 10px;
+  border: 2px solid rgb(69 194 177/ 30%);
+}
