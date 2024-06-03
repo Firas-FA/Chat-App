@@ -29,7 +29,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(69, 194, 177, 1);
+  background: rgba(144, 146, 148,0.5);
   border-radius: 10px;
-  border: 2px solid rgb(69 194 177/ 30%);
+  border: 2px solid rgb(144 146 148/ 30%);
 }

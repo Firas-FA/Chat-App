@@ -22,15 +22,15 @@ const router = createBrowserRouter([
       },
       {
         path: '/signup',
-        element: <Signup/>,
-        },
+        element: <Signup />,
+      },
       {
         path: '/verification',
-        element: <Verification/>,
-        },
+        element: <Verification />,
+      },
       {
         path: "/chat",
-        element: <Chat/>,
+        element: <Chat />,
       },
     ],
   },

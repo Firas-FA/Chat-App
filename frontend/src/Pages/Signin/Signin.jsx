@@ -3,14 +3,19 @@ import { Row, Col } from "react-bootstrap";
 import singInImage from "../../Assets/Images/singin-image.svg";
 import phoneCall from "../../Assets/Images/phone-call.svg";
 import SingInStar from "../../Assets/Images/SingInStar1.svg";
+import { useNavigate } from "react-router-dom";
+
+
 import "./SigninStyle.css";
 
 function Signin() {
   const [phoneNumber, setPhoneNumber] = useState("");
+  const navigate = useNavigate();
 
   function handelSingIn() {
-    alert(phoneNumber);
     setPhoneNumber("");
+    navigate("verification");
+
   }
   return (
     <Row className="mx-0 vh-100">

@@ -1,0 +1,103 @@
+.otp-Form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.mainHeading {
+    font-size: 2.5rem;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+}
+
+.otpSubheading {
+    max-width: max-content;
+    font-size: 1.4em;
+    color: #8E8E93;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.inputContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.otp-input {
+    background-color: #ffffff;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid #E5E5EA;
+    border-radius: 12px;
+    /* caret-color: rgb(127, 129, 255);   */
+    color: rgb(44, 44, 44);
+    outline: none;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.otp-input:focus,
+.otp-input:valid {
+    background-color: rgba(69 194 177 / 30%);
+    transition-duration: .3s;
+}
+
+.verifyButton {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: rgb(60, 194, 177);
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.verifyButton:hover {
+    background-color: #389d90;
+    transition-duration: .5s;
+}
+
+.resendNote {
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.userNumber {
+    padding-left: 5px;
+    color: #3CC2B1;
+    font-weight: bold;
+}
+
+.resendBtn {
+    background-color: transparent;
+    border: none;
+    color: #3CC2B1;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 5px;
+
+}
