@@ -16,7 +16,7 @@ function Verification() {
         <img id="start2" src={SingInStar} alt="" />
         <img id="start3" src={SingInStar} alt="" />
         <img id="start4" src={SingInStar} alt="" />
-        <OtpForm />
+        <OtpForm userPhoneNumber={phoneNumber} />
       </Col>
       <Col md="6" className="right-content">
         <img id="imageSingin" src={VerifcationImage} alt="" />
