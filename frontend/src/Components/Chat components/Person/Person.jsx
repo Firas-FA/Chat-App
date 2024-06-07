@@ -6,7 +6,7 @@ import './PersonStyle.css'
 function Person() {
   return (
     <>
-    <div className='d-flex align-items-center w-100 bg- mt-3 person'>
+    <div className='d-flex align-items-center w-100 bg- mt-3 pe-2 person'>
         <div className=' w-25 p-1 per-img'> 
             <img src={personImg} className='w-100 rounded-circle ' alt="" />
             <div className='online'></div>

@@ -1,0 +1,11 @@
+.basics{
+    background-color: #fff;
+    /* background-color: #ce5b5b; */
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Cairo ,sans-serif;
+    padding: 4px 7px;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.06) !important;
+    /* justify-content: space-between; */
+}
