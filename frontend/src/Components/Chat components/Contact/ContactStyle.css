@@ -20,6 +20,7 @@
 }
 ::-webkit-scrollbar {
   width: 10px;
+
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +30,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(144, 146, 148,0.5);
-  border-radius: 10px;
-  border: 2px solid rgb(144 146 148/ 30%);
+  background: rgb(204, 209, 208);
+  border-radius: 5px;
+  /* border: 2px solid rgb(69 194 177/ 30%); */
+}
+.offcanvas{
+  background-color: #FCFCFC !important;
+  border-radius: 0 30px 30px 0;
+  font-weight: normal;
 }

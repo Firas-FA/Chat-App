@@ -1,0 +1,19 @@
+.input-container {
+    position: relative;
+    width: 200px; /* Adjust as needed */
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray; /* Adjust icon color as needed */
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 30px); /* Adjust based on icon size */
+    padding-left: 30px; /* Make room for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
